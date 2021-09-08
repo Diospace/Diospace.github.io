@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name='copyright' content=''>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/png">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="../css/magnific-popup.min.css">
+    <!-- Themify Icons -->
+    <link rel="stylesheet" href="../css/themify-icons.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="../css/animate.css">
+    <link href="../css/style2.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/font-awesome1.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Easy Shopping| Contact</title>
+</head>
+
+<body>
+
+    <body onload="setTimer()">
+        <div class="header">
+            <div class="container">
+                <div class="nav_bar">
+                    <div class="logo">
+                        <img src="../img/logo.png" width="100px" height="60px" alt="">
+                    </div>
+
+                    <nav>
+
+
+                        <ul id="menuItems">
+                            <!-- <li>
+                                        <input type="search" placeholder="search product" class="search"><input type="submit" class="half_btn_left" value="search">
+                                    </li> -->
+                            <li>
+                                <a href="../index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="product.html" class="active">product</a>
+                            </li>
+                            <li>
+                                <a href="About.html">About</a>
+                            </li>
+                            <li>
+                                <a href="account.html">Account</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+
+
+
+                    </nav>
+                    <a href="#" class="single-icon"><i class="ti-bag"></i> <span class="total-count">2</span></a>
+
+
+                    <button type="button" id="trigger_button" onclick="toggleButton()">
+                            <span class="icon"></span>
+                            <span class="icon"></span>
+                            <span class="icon"></span>
+                        </button>
+                </div>
+
+
+                <div class="image_gall">
+                    <div class="slider" onmouseover="shopSlider()" onmouseout="setTimer();">
+                        <div id="dots_Cont"></div>
+                        <div class="captionHolder">
+                            <p class="text_caption"></p>
+                        </div>
+
+                        <button onclick="plus_Slide(-1)" class="Arrow left"><</button>
+                        <button onclick="plus_Slide(1)" class="Arrow right">></button>
+
+                        <div class="image_holder">
+                            <img src="../img/slider-1.jpg" alt="">
+                            <p class="text_caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, repellat veniam culpa vel quasi aspernatur animi aliquam molestias et distinctio autem perspiciatis repellendus, dicta expedita praesentium assumenda explicabo,
+                                ipsam error.</p>
+                        </div>
+                        <div class="image_holder">
+                            <img src="../img/slider-2.jpg" alt="">
+                            <p class="text_caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi natus iste pariatur! Omnis architecto qui voluptatibus harum odio repellendus blanditiis porro atque, nisi in eveniet iusto quis. Repudiandae, fugit.</p>
+                        </div>
+                        <div class="image_holder">
+                            <img src="../img/slider-3.jpg" alt="">
+                            <p class="text_caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis mollitia unde ipsam, repellat, est itaque quae tempore velit optio inventore cumque laborum doloribus iusto, in nulla aliquid natus accusantium dolor!</p>
+                        </div>
+                        <div class="image_holder">
+                            <img src="../img/category-2.jpg" alt="">
+                            <p class="text_caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis mollitia unde ipsam, repellat, est itaque quae tempore velit optio inventore cumque laborum doloribus iusto, in nulla aliquid natus accusantium dolor!</p>
+                        </div>
+                        <div class="image_holder">
+                            <img src="../img/category-3.jpg" alt="">
+                            <p class="text_caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, totam nulla temporibus soluta ea assumenda sed optio. Accusamus officia harum consequuntur enim rerum. Labore aliquid, cum illo aperiam incidunt fuga?</p>
+                        </div>
+                        <div class="image_holder">
+                            <img src="../img/category-4.jpg" alt="">
+                            <p class="text_caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quidem, odit assumenda nisi fuga nihil nesciunt eaque deleniti soluta ad ut optio praesentium fugit voluptate excepturi quaerat, facilis reiciendis perferendis!</p>
+                        </div>
+                        <div class="image_holder">
+                            <img src="../img/about.jpg" alt="">
+                            <p class="text_caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis rerum deserunt sunt. At, voluptate, beatae a fuga sed amet doloremque fugiat iste impedit, quas quam. Aliquid quam dignissimos laborum deserunt.</p>
+                        </div>
+                        <div class="image_holder">
+                            <img src="../img/cooming-pc.png" alt="">
+                            <p class="text_caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam similique unde voluptate dolor quasi repudiandae vitae facere mollitia sed quisquam asperiores molestias excepturi, culpa magni at quas aliquid. Sunt!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -----------product pages------------- -->
+        <div class="top_bottom">
+
+            <div class="catigories">
+
+                <!-- <a href="Post_ads.html" class="btn"> Post Goods or Sevices +</a> -->
+                <ul>
+                    <li><a href="#" class="active top">ALL</a></li>
+                    <li><a href="#">Vehicles</a></li>
+                    <li><a href="#">Funiture and Building</a></li>
+                    <li><a href="#">Arigucature</a></li>
+                    <li><a href="#">Arigucature and Food items</a></li>
+                    <li><a href="#">Electronics</a></li>
+                    <li><a href="#">Mobile Phones Tablets and other devices</a></li>
+                    <li><a href="#">Fashion</a></li>
+                    <li><a href="#">Animals and pets</a></li>
+                    <li><a href="#">Commercial Equipment and Tools</a></li>
+                    <li><a href="#">Repair and Construction</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Toy for Kid</a></li>
+                    <li><a href="#">Home Appliances and Cooking utensil</a></li>
+                    <li><a href="#">Health and Beauty</a></li>
+                    <li><a href="#">Repair and Construction</a></li>
+                    <li><a href="#" class=" bottom">Others</a></li>
+                </ul>
+
+            </div>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col_3">
+                        <form action="" method="post">
+                            <span>
+                                    <input type="search" name="query" id="query" placeholder="Search Product">
+                                    <input type="image" src="../img/search.png" alt="" style="width: 50px;" id="search" >
+                            </span>
+
+                    </div>
+                    </form>
+
+                    <div class="col_3">
+                        <h2 id="display_filter-type">$20.00-$30.00</h2>
+                        <button class="filter" id="trigger_modal">filter</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="small_container">
+            <h1>feature Products</h1>
+            <div class="row">
+                <div class="col_4">
+                    <div class="cover_add_Cart">
+                        <span>10%</span>
+                        <button class="btn" title="Add to cart">Add to Cart +</button>
+                        <p>Click arrow image to see product details</p>
+                    </div>
+                    <img src="../img/5.png" alt="">
+                    <h4><i>Marikolp techno</i></h4>
+                    <div class="rating">
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star-half"></i>
+                        <i class="fa icon-star-empty"> </i>
+
+                    </div>
+                    <span style="display: inline-flex; "><p class="oldP">$500</p> <p class="newp" style= "padding-left:14px;">$400</p></span>
+                    <div class="detail" title="Product Detail"><img src="../img/arrow.png" alt=""></div>
+
+
+                </div>
+                <div class="col_4">
+                    <div class="cover_add_Cart">
+                        <span>10%</span>
+                        <button class="btn" title="Add to cart">Add to Cart +</button>
+                        <p>Click arrow image to see product details</p>
+                    </div>
+                    <img src="../img/1.png" alt="">
+                    <h4><i>Marikolp techno</i></h4>
+                    <div class="rating">
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star-half"></i>
+
+                    </div>
+                    <span style="display: inline-flex; "><p class="oldP">$500</p> <p class="newp" style= "padding-left:14px;">$400</p></span>
+                    <div class="detail" title="Product Detail"><img src="../img/arrow.png" alt=""></div>
+
+
+
+                </div>
+                <div class="col_4">
+                    <div class="cover_add_Cart">
+                        <span>10%</span>
+                        <button class="btn" title="Add to cart">Add to Cart +</button>
+                        <p>Click arrow image to see product details</p>
+                    </div>
+                    <img src="../img/10.png" alt="">
+                    <h4><i>Marikolp techno</i></h4>
+
+                    <div class="rating">
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star-half"></i>
+
+                    </div>
+                    <span style="display: inline-flex; "><p class="oldP">$500</p> <p class="newp" style= "padding-left:14px;">$400</p></span>
+                    <div class="detail" title="Product Detail"><img src="../img/arrow.png" alt=""></div>
+
+                </div>
+                <div class="col_4">
+                    <div class="cover_add_Cart">
+                        <span>10%</span>
+                        <button class="btn" title="Add to cart">Add to Cart +</button>
+                        <p>Click arrow image to see product details</p>
+                    </div>
+                    <img src="../img/9.jpeg" alt="">
+                    <h4><i>Marikolp techno</i></h4>
+                    <div class="rating">
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+
+                    </div>
+                    <span style="display: inline-flex; "><p class="oldP">$500</p> <p class="newp" style= "padding-left:14px;">$400</p></span>
+                    <div class="detail" title="Product Detail"><img src="../img/arrow.png" alt=""></div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col_4">
+                    <div class="cover_add_Cart">
+                        <span>10%</span>
+                        <button class="btn" title="Add to cart">Add to Cart +</button>
+                        <p>Click arrow image to see product details</p>
+                    </div>
+                    <img src="../img/product-4.jpg" alt="">
+                    <h4><i>Marikolp techno</i></h4>
+                    <div class="rating">
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star-half"></i>
+                        <i class="fa icon-star-empty"> </i>
+
+                    </div>
+                    <span style="display: inline-flex; "><p class="oldP">$500</p> <p class="newp" style= "padding-left:14px;">$400</p></span>
+                    <div class="detail" title="Product Detail"><img src="../img/arrow.png" alt=""></div>
+
+
+                </div>
+                <div class="col_4">
+                    <div class="cover_add_Cart">
+                        <span>10%</span>
+                        <button class="btn" title="Add to cart">Add to Cart +</button>
+                        <p>Click arrow image to see product details</p>
+                    </div>
+                    <img src="../img/product-3.jpg" alt="">
+                    <h4><i>Marikolp techno</i></h4>
+                    <div class="rating">
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star-half"></i>
+
+                    </div>
+                    <span style="display: inline-flex; "><p class="oldP">$500</p> <p class="newp" style= "padding-left:14px;">$400</p></span>
+                    <div class="detail" title="Product Detail"><img src="../img/arrow.png" alt=""></div>
+
+
+
+                </div>
+                <div class="col_4">
+                    <div class="cover_add_Cart">
+                        <span>10%</span>
+                        <button class="btn" title="Add to cart">Add to Cart +</button>
+                        <p>Click arrow image to see product details</p>
+                    </div>
+                    <img src="../img/product-2.jpg" alt="">
+                    <h4><i>Marikolp techno</i></h4>
+
+                    <div class="rating">
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star-half"></i>
+
+                    </div>
+                    <span style="display: inline-flex; "><p class="oldP">$500</p> <p class="newp" style= "padding-left:14px;">$400</p></span>
+                    <div class="detail" title="Product Detail"><img src="../img/arrow.png" alt=""></div>
+
+                </div>
+                <div class="col_4">
+                    <div class="cover_add_Cart">
+                        <span>10%</span>
+                        <button class="btn" title="Add to cart">Add to Cart +</button>
+                        <p>Click arrow image to see product details</p>
+                    </div>
+                    <img src="../img/product-1.jpg" alt="">
+                    <h4><i>Marikolp techno</i></h4>
+                    <div class="rating">
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+
+                    </div>
+                    <span style="display: inline-flex; "><p class="oldP">$500</p> <p class="newp" style= "padding-left:14px;">$400</p></span>
+                    <div class="detail" title="Product Detail"><img src="../img/arrow.png" alt=""></div>
+
+                </div>
+
+                <div class="col_4">
+                    <div class="cover_add_Cart">
+                        <span>10%</span>
+                        <button class="btn" title="Add to cart">Add to Cart +</button>
+                        <p>Click arrow image to see product details</p>
+                    </div>
+                    <img src="../img/8.jpeg" alt="">
+                    <h4><i>Marikolp techno</i></h4>
+                    <div class="rating">
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star-half"></i>
+                        <i class="fa icon-star-empty"> </i>
+                    </div>
+                    <span style="display: inline-flex; "><p class="oldP">$500</p> <p class="newp" style= "padding-left:14px;">$400</p></span>
+                    <div class="detail" title="Product Detail"><img src="../img/arrow.png" alt=""></div>
+
+
+                </div>
+                <div class="col_4">
+                    <div class="cover_add_Cart">
+                        <span>10%</span>
+                        <button class="btn" title="Add to cart">Add to Cart +</button>
+                        <p>Click arrow image to see product details</p>
+                    </div>
+                    <img src="../img/7.jpeg" alt="">
+                    <h4><i>Marikolp techno</i></h4>
+                    <div class="rating">
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star-half"></i>
+
+                    </div>
+                    <span style="display: inline-flex; "><p class="oldP">$500</p> <p class="newp" style= "padding-left:14px;">$400</p></span>
+                    <div class="detail" title="Product Detail"><img src="../img/arrow.png" alt=""></div>
+
+
+                </div>
+                <div class="col_4">
+                    <div class="cover_add_Cart">
+                        <span>10%</span>
+                        <button class="btn" title="Add to cart">Add to Cart +</button>
+                        <p>Click arrow image to see product details</p>
+                    </div>
+                    <img src="../img/6.jpeg" alt="">
+                    <h4><i>Marikolp techno</i></h4>
+
+                    <div class="rating">
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star-half"></i>
+
+                    </div>
+                    <span style="display: inline-flex; "><p class="oldP">$500</p> <p class="newp" style= "padding-left:14px;">$400</p></span>
+                    <div class="detail" title="Product Detail"><img src="../img/arrow.png" alt=""></div>
+
+
+
+                </div>
+                <div class="col_4">
+                    <div class="cover_add_Cart">
+                        <span>10%</span>
+                        <button class="btn" title="Add to cart">Add to Cart +</button>
+                        <p>Click arrow image to see product details</p>
+                    </div>
+                    <img src="../img/2.jpeg" alt="">
+                    <h4><i>Marikolp techno</i></h4>
+                    <div class="rating">
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+
+                    </div>
+
+                    <span style="display: inline-flex; "><p class="oldP">$500</p> <p class="newp" style= "padding-left:14px;">$400</p></span>
+                    <div class="detail" title="Product Detail"><img src="../img/arrow.png" alt=""></div>
+
+
+
+                </div>
+
+
+                <div class="col_4">
+                    <div class="cover_add_Cart">
+                        <span>10%</span>
+                        <button class="btn" title="Add to cart">Add to Cart +</button>
+                        <p>Click arrow image to see product details</p>
+                    </div>
+                    <img src="../img/3.jpeg" alt="">
+                    <h4><i>Marikolp techno</i></h4>
+                    <div class="rating">
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star-half"></i>
+                        <i class="fa icon-star-empty"> </i>
+                    </div>
+                    <span style="display: inline-flex; "><p class="oldP">$500</p> <p class="newp" style= "padding-left:14px;">$400</p></span>
+                    <div class="detail" title="Product Detail"><img src="../img/arrow.png" alt=""></div>
+
+
+                </div>
+                <div class="col_4">
+                    <div class="cover_add_Cart">
+                        <span>10%</span>
+                        <button class="btn" title="Add to cart">Add to Cart +</button>
+                        <p>Click arrow image to see product details</p>
+                    </div>
+                    <img src="../img/5.jpeg" alt="">
+                    <h4><i>Marikolp techno</i></h4>
+                    <div class="rating">
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star-half"></i>
+
+                    </div>
+                    <span style="display: inline-flex; "><p class="oldP">$500</p> <p class="newp" style= "padding-left:14px;">$400</p></span>
+                    <div class="detail" title="Product Detail"><img src="../img/arrow.png" alt=""></div>
+
+
+                </div>
+                <div class="col_4">
+                    <div class="cover_add_Cart">
+                        <span>10%</span>
+                        <button class="btn" title="Add to cart">Add to Cart +</button>
+                        <p>Click arrow image to see product details</p>
+                    </div>
+                    <img src="../img/1.jpeg" alt="">
+                    <h4><i>Marikolp techno</i></h4>
+
+                    <div class="rating">
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star-half"></i>
+
+                    </div>
+                    <span style="display: inline-flex; "><p class="oldP">$500</p> <p class="newp" style= "padding-left:14px;">$400</p></span>
+                    <div class="detail" title="Product Detail"><img src="../img/arrow.png" alt=""></div>
+
+
+                </div>
+                <div class="col_4">
+                    <div class="cover_add_Cart">
+                        <span>10%</span>
+                        <button class="btn" title="Add to cart">Add to Cart +</button>
+                        <p>Click arrow image to see product details</p>
+                    </div>
+                    <img src="../img/4.jpeg" alt="">
+                    <h4><i>Marikolp techno</i></h4>
+                    <div class="rating">
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+                        <i class="fa icon-star"> </i>
+
+                    </div>
+                    <span style="display: inline-flex; "><p class="oldP">$500</p> <p class="newp" style= "padding-left:14px;">$400</p></span>
+                    <div class="detail" title="Product Detail"><img src="../img/arrow.png" alt=""></div>
+
+                </div>
+            </div>
+
+
+
+            <div class="page_product_control">
+                <span class="state disable">Previous</span>
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span class="state enable">Next</span>
+            </div>
+        </div>
+
+
+
+        <!-- -----------footer----------- -->
+        <div class="footer ">
+            <div class="small_container ">
+                <div class="row ">
+                    <div class="col_3 ">
+                        <img src="../img/logo.png " alt=" " class="img_i ">
+                        <p>EasyShopping, shopping have never be made easy like this before.</p>
+                    </div>
+                    <div class="col_3 ">
+                        <h3>Contact Us</h3>
+                        <ul>
+                            <li>
+                                <a href="# "> facebook</a>
+                            </li>
+                            <li>
+                                <a href="# "> Twitter</a>
+                            </li>
+                            <li>
+                                <a href="# ">instagram</a>
+                            </li>
+                            <li>
+                                <a href="# ">youTube</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col_3 ">
+                        <h3>About Us</h3>
+                        <ul>
+                            <li>
+                                <a href="# "> Shop here Visit Store</a>
+                            </li>
+                            <li>
+                                <a href="# "> Create A store By Creating Account</a>
+                            </li>
+                            <li>
+                                <a href="# ">Comment, For our services provided</a>
+                            </li>
+                            <li>
+                                <a href="# ">Help Section</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr id="footer_line ">
+                <h5 style="text-align: center; color:rgba(194, 194, 194, 0.699); ">Copyright ©2020 Endurance Ogun All rights reserved </h5>
+            </div>
+        </div>
+        <div class="modal_f" id="price-modal">
+            <div class="filter_modal">
+                <h2>Filter Product Width Prices</h2>
+                <a href="#" class="close" id="close">x</a>
+                <form action="" method="get">
+                    <span class="inline"><p>low price::<Strong>$</Strong></p><input type="number" name="low_price" id="low_price" class="price_filter"></span>
+                    <span class="inline"><p>Max price::<Strong>$</Strong></p><input type="number" name="max_price" id="max_price" class="price_filter"></span>
+                    <input type="submit" name="ok" value="Filter" class="btn">
+                </form>
+
+            </div>
+        </div>
+
+        <!-- Jquery -->
+        <script src="../script/jquery.min.js "></script>
+        <script src="../script/jquery-migrate-3.0.0.js "></script>
+        <script src="../script/jquery-ui.min.js "></script>
+        <script src="../script/script.js "></script>
+        <!-- ScrollUp JS -->
+        <script src="../script/scrollup.js "></script>
+        <!-- Magnific Popup JS -->
+        <script src="../script/magnific-popup.js "></script>
+        <!-- Popper JS -->
+        <script src="../script/popper.min.js "></script>
+        <!-- Bootstrap JS -->
+        <script src="../script/bootstrap.min.js "></script>
+        <!-- Color JS -->
+        <script src="../script/colors.js "></script>
+        <!-- Slicknav JS -->
+        <script src="../script/slicknav.min.js "></script>
+        <!-- Owl Carousel JS -->
+        <script src="../script/owl-carousel.js "></script>
+        <!-- Waypoints JS -->
+        <script src="../script/waypoints.min.js "></script>
+        <!-- Countdown JS -->
+        <script src="../script/finalcountdown.min.js "></script>
+        <!-- Nice Select JS -->
+        <script src="../script/nicesellect.js "></script>
+        <!-- Flex Slider JS -->
+        <script src="../script/flex-slider.js "></script>
+        <!-- Onepage Nav JS -->
+        <script src="../script/onepage-nav.min.js "></script>
+        <!-- Easing JS -->
+        <script src="../script/easing.js "></script>
+        <!-- Active JS -->
+        <script src="../script/active.js "></script>
+        <script>
+            var trigger_modal = document.getElementById("trigger_modal");
+            var modal_price = document.getElementById("price-modal");
+            var close_modal = document.getElementById("close");
+
+            trigger_modal.addEventListener('click', function() {
+                modal_price.style.display = "block";
+                modal_price.style.opacity = 1;
+            }, false)
+            close_modal.addEventListener('click', function() {
+                modal_price.style.opacity = 0;
+                modal_price.style.display = "none";
+
+            }, false)
+        </script>
+    </body>
+
+</html>
